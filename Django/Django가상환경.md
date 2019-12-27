@@ -5,10 +5,10 @@
 > pyenv local 환경이름
 > pip install django~=버전
 > django-admin startproject 프로젝트이름 
+> pip freeze>requirements.txt
 > mv config app
 > python manage.py startapp 앱이름 (manage.py에서 없는곳에서 실행하면 오류)
 > pip install django-extensions notebook (실행할때 python manage.py shell_plus --notebook)
-> pip freeze > requirements.txt
 setting.py에 들어가서 안에 있는 INSTALLED_APPS에 방금 추가한 앱이름이랑 'django-extensions' 넣기
 
 
