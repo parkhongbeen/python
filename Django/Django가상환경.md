@@ -11,6 +11,9 @@
 > pip install django-extensions notebook (실행할때 python manage.py shell_plus --notebook)
 setting.py에 들어가서 안에 있는 INSTALLED_APPS에 방금 추가한 앱이름이랑 'django-extensions' 넣기
 
+tip / .gitignore같은 경우는 존재하는 폴더로 가서
+$ mv /복사할파일/ /복사될 폴더위치/
+를 해서 복사해오기
 
 모델에 클래스 변경 후
 > python manage.py makemigrations
