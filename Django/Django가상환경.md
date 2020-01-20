@@ -1,9 +1,9 @@
 ```
 > pyenv install 버전 (한번만)
-> pyenv virtualenv 버전 환경이름
+> pyenv virtualenv 버전 환경이름 / 2.7.5
 # 가상환경을 설정할 폴더로 이동 후
 > pyenv local 환경이름
-> pip install django~=버전
+> pip install django~=버전 / 3.0.0
 > django-admin startproject 프로젝트이름 
 > pip freeze>requirements.txt
 > mv config app
