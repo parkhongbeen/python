@@ -58,8 +58,8 @@ print(container)
 
 # Counter({'f': 2, 'g': 2, 'a': 2, 'e':1, 'b': 1, 'c': 1, 'd':1})
 
-for i,j in container.items():
-  print(i,':',v)
+for i, j in container.items():
+  print(i,':',j)
  
 '''
 f : 2
@@ -121,9 +121,10 @@ import collections
 
 c = collections.Counter('abc, bac, ccc')
 print(c.most_common())
-# [('c', 5), ('a', 2), ('c', 2)]
+# [('c', 5), ('a', 2), ('b', 2)]
+
 print(c.most_common(2))
-# [('a', 2), ('c', 2)]
+# [('a', 2), ('b', 2)]
 ```
 
 #### 4) subtract()
@@ -172,7 +173,7 @@ print(a-b)
 
 #### 3) 교집합(&), 합집합(|)
 
-Counter의 교집합 및 합집합의 출력갑슨 `{값 : 개수}`의 딕셔너리 형태로 반환됩니다.
+Counter의 교집합 및 합집합의 출력값은 `{값 : 개수}`의 딕셔너리 형태로 반환됩니다.
 
 ```python
 import collections
